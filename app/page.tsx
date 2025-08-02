@@ -124,7 +124,7 @@ export default function FitZoneBangalore() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/banner1.png')",
           }}
         >
           <div className="absolute inset-0 bg-black/50 dark:bg-black/70" />
@@ -319,7 +319,7 @@ export default function FitZoneBangalore() {
                   <div
                     className="h-48 bg-cover bg-center relative"
                     style={{
-                      backgroundImage: `url('/placeholder.svg?height=300&width=400')`,
+                      backgroundImage: `url('https://source.unsplash.com/random/400x300?${program.image}')`,
                     }}
                   >
                     <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-all duration-300" />
@@ -399,7 +399,7 @@ export default function FitZoneBangalore() {
                   <motion.div
                     className="h-80 bg-cover bg-center relative"
                     style={{
-                      backgroundImage: `url('/placeholder.svg?height=400&width=300')`,
+                      backgroundImage: `url('https://source.unsplash.com/random/300x400?${trainer.image}')`,
                     }}
                     whileHover={{ scale: 1.05 }}
                   >
@@ -600,7 +600,7 @@ export default function FitZoneBangalore() {
                       <div
                         className="bg-cover bg-center relative"
                         style={{
-                          backgroundImage: `url('/placeholder.svg?height=300&width=200')`,
+                          backgroundImage: `url('https://source.unsplash.com/random/200x300?${story.beforeImage}')`,
                         }}
                       >
                         <div className="absolute bottom-2 left-2 bg-black/70 text-white px-2 py-1 text-xs rounded">
@@ -610,7 +610,7 @@ export default function FitZoneBangalore() {
                       <div
                         className="bg-cover bg-center relative"
                         style={{
-                          backgroundImage: `url('/placeholder.svg?height=300&width=200')`,
+                          backgroundImage: `url('https://source.unsplash.com/random/200x300?${story.afterImage}')`,
                         }}
                       >
                         <div className="absolute bottom-2 right-2 bg-orange-500 text-white px-2 py-1 text-xs rounded">
@@ -650,7 +650,7 @@ export default function FitZoneBangalore() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=800&width=1200')",
+            backgroundImage: "url('https://source.unsplash.com/random/1200x800?gym')",
           }}
         >
           <div className="absolute inset-0 bg-background/90 dark:bg-background/95" />
